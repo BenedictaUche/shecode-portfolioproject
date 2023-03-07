@@ -1,0 +1,59 @@
+:root {
+    --h1: 50px;
+    --font-weight: bold;
+    --p: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E7EAF6;
+    font-family: 'Karma', sans-serif;
+}
+
+h1 {
+    font-size: var(--h1);
+    font-weight: var(--font-weight);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: var(--p);
+}
+
+.resume {
+    margin-left: 4px;
+}
+
+.contact-btn {
+    background-color: #113F67;
+    padding: 10px;
+    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+
+}
+
+.contact-btn:hover {
+    opacity: 0.9;
+    transition: all 200ms ease-in-out;
+}
+
+.resume-btn {
+    background-color: #38598B;
+    padding: 10px;
+    margin-left: 3%;
+    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+
+}
+
+.resume-btn:hover {
+    opacity: 0.9;
+    transition: all 200ms ease-in-out;
+}

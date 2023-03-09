@@ -46,8 +46,9 @@ a {
 }
 
 .btns {
-    margin-top: 5%;
+    margin-top: 1.5rem;
 }
+
 
 .contact-btn {
     background-color: var(--primary);
@@ -113,5 +114,21 @@ a {
 
     .icons {
         margin-top: 5%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .btns {
+        margin-top: 1rem;
+    }
+
+    .btns a {
+        margin-bottom: 1rem;
     }
 }

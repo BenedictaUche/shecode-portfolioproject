@@ -1,7 +1,13 @@
 :root {
-    --h1: 50px;
     --font-weight: bold;
-    --p: 25px;
+    --intro-text: 20px;
+    --h1: 40px;
+    --box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+    --transition: all 200ms ease-in-out;
+    --primary: #113F67;
+    --secondary: #38598B;
+    --accent: #E7EAF6;
+
 }
 
 * {
@@ -11,13 +17,14 @@
 }
 
 body {
-    background-color: #E7EAF6;
+    background-color: var(--accent);
     font-family: 'Karma', sans-serif;
 }
 
-h1 {
-    font-size: var(--h1);
+.intro {
+    font-size: var(--intro-text);
     font-weight: var(--font-weight);
+    margin-top: 20%;
 }
 
 a {
@@ -26,42 +33,53 @@ a {
 }
 
 .name {
-    font-size: var(--p);
+    font-size: var(--h1);
+}
+
+.span {
+    color: var(--primary);
+    font: bolder;
 }
 
 .resume {
     margin-left: 4px;
 }
 
+.btns {
+    margin-top: 5%;
+}
+
 .contact-btn {
-    background-color: #113F67;
-    padding: 15px;
-    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+    background-color: var(--primary);
+    padding: 15px 30px;
+    box-shadow: var(--box-shadow);
 }
 
 .launch-btn {
-    background-color: #113F67;
+    background-color: var(--primary);
     padding: 15px;
-    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+    box-shadow: var(--box-shadow);
 }
 
 .contact-btn:hover {
     opacity: 0.9;
-    transition: all 200ms ease-in-out;
+    transition: var(--transition);
 }
 
 .resume-btn {
-    background-color: #38598B;
-    padding: 15px;
+    background-color: var(--secondary);
+    padding: 15px 30px;
     margin-left: 3%;
-    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+    box-shadow: var(--box-shadow);
 
 }
 
 .resume-btn:hover {
     opacity: 0.9;
-    transition: all 200ms ease-in-out;
+    transition: var(--transition);
 }
+
+
 
 .projects {
     margin-top: 7%;
@@ -73,7 +91,7 @@ a {
 
 .icons a {
     text-decoration: none;
-    color: #113F67;
+    color: var(--primary);
     margin-top: 20%;
 }
 

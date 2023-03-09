@@ -25,7 +25,7 @@ a {
     color: white;
 }
 
-p {
+.name {
     font-size: var(--p);
 }
 
@@ -35,7 +35,7 @@ p {
 
 .contact-btn {
     background-color: #113F67;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
 
 }
@@ -47,7 +47,7 @@ p {
 
 .resume-btn {
     background-color: #38598B;
-    padding: 10px;
+    padding: 15px;
     margin-left: 3%;
     box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
 
@@ -56,4 +56,37 @@ p {
 .resume-btn:hover {
     opacity: 0.9;
     transition: all 200ms ease-in-out;
+}
+
+.projects {
+    margin-top: 7%;
+}
+
+icons a {
+    text-decoration: none;
+    color: #113F67;
+
+}
+
+.icons a i {
+    color: #113F67;
+}
+
+@media(max-width:768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .projects img {
+        margin-top: 12%;
+    }
+
+    .icons {
+        margin-top: 5%;
+    }
 }

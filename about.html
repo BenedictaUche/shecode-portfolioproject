@@ -11,79 +11,117 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <title>About Benedicta</title>
+    <link href='style.css' rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Benedicta</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <!-- Navbar section -->
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Benedicta</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./work.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- End of navbar section -->
-    <section>
-        <div class="container projects">
-            <div class="row">
-                <div class="col-6">
-                    <img src="images/weather.png" alt="weather app" class="img-fluid rounded" />
-                </div>
-                <div class="col-6">
-                    <h2>Weather app</h2>
-                    <p>This is an application built using HTML, CSS, and JavaScript, which utilizes the OpenWeatherAPI
-                        and Axios to fetch
-                        weather data for a user's preferred location. With this app, you can easily access up-to-date
-                        weather information for
-                        any location, allowing you to plan your day accordingly. </p>
-                    <a href="#" class="launch-btn">Launch app</a>
-                </div>
+    <main class="container">
+        <h1 class="about-header-text">About Me</h1>
+        <div class="row">
+            <div class="about-image col-6">
+                <img src="./images/benedicta1.png" alt="Benedicta smiling" class="smiling-img" />
+            </div>
+            <div class="about-texts col-6">
+                <h1>Benedicta Onyebuchi</h1>
+                <h2>Front-end Developer</h2>
+                <p>With a year experience in creating engaging,
+                    user-friendly web interfaces.
+                    My passion for design and technology has led me to develop a keen eye for aesthetics and a strong
+                    ability to write
+                    clean, efficient code.<br />
+
+                    Over the years, I've honed my skills in <span class="span">HTML, CSS, JavaScript</span>, and various
+                    front-end
+                    frameworks,
+                    including <span class="span">React and
+                        Angular</span>. My focus is always on creating responsive and accessible websites that deliver
+                    the best possible
+                    user experience. I take pride in my attention to detail, and I'm always striving to improve my
+                    skills and stay
+                    up-to-date with the latest technologies.<br />
+
+                    Whether it's a new project from scratch or a redesign of an existing site, I'm always up for a
+                    challenge. I believe that
+                    communication is key to success, and I work closely with my clients to ensure that their vision is
+                    realized in every
+                    aspect of the design and development process.<br />
+
+                    When I'm not coding, you can find me exploring the great outdoors, reading a good book, or trying
+                    out new recipes in the
+                    kitchen. Thank you for taking the time to visit my portfolio, and I look forward to working with
+                    you!</p>
             </div>
         </div>
-        <div class="container projects">
-            <div class="row">
-                <div class="col-6">
-                    <h2>Metaverse Web app</h2>
-                    <p>This is a web application that has been developed using React and Tailwind, two of the most
-                        popular technologies for
-                        building modern, responsive websites. The application's primary goal is to help users find
-                        luxurious and affordable
-                        homes in the metaverse, which is a virtual reality space that is becoming increasingly popular
-                        among people around the
-                        world. It represents a powerful and innovative way to access luxurious and affordable homes in
-                        the metaverse, making it an
-                        indispensable tool for anyone interested in exploring this exciting new world of virtual
-                        reality.</p>
-                    <a href="http://metabnb-three.vercel.app/" class="launch-btn">Launch app</a>
+        <section>
+            <div class="text-center technology">
+                <i class="mdi mdi-xml technology-icon"></i>
+                <p class="technology-header">Skills & Technologies</p>
+                <div class="d-flex first-skills">
+                    <div class="d-flex skill">
+                        <i class="mdi mdi-language-javascript"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="d-flex skill react">
+                        <i class="mdi mdi-react"></i>
+                        <p>React</p>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <img src="images/metabnb.png" alt="metabnb app" class="img-fluid rounded" />
+                <div class="d-flex second-skills">
+                    <div class="d-flex skill">
+                        <i class="mdi mdi-database-search"></i>
+                        <p class="ml-5">SQL</p>
+                    </div>
+                    <div class="d-flex skill css">
+                        <i class="mdi mdi-language-css3"></i>
+                        <p>CSS</p>
+                    </div>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="icons text-center">
+            <a href="https://github.com/BenedictaUche" target="_blank"><i class="mdi mdi-github"></i></a>
+            <a href="https://twitter.com/Benny_dicta1" target="_blank"><i class="mdi mdi-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/benedicta-onyebuchi" target="_blank"><i
+                    class="mdi mdi-linkedin"></i></a>
         </div>
-    </section>
+    </footer>
 </body>
 
 </html>

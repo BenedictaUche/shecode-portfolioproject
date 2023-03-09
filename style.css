@@ -38,7 +38,7 @@ a {
 
 .span {
     color: var(--primary);
-    font: bolder;
+    font-weight: bolder;
 }
 
 .resume {
@@ -90,10 +90,92 @@ a {
     margin-bottom: 7%;
 }
 
+.projects h2 {
+    font-weight: 900;
+}
+
 .icons a {
     text-decoration: none;
     color: var(--primary);
     margin-top: 20%;
+}
+
+/* styling for about page */
+.about-header-text {
+    margin-top: 7%;
+    font-weight: 900;
+}
+
+.about-texts h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.about-texts h2 {
+    font-size: 30px;
+}
+
+.first-skills,
+.second-skills {
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: var(--accent);
+}
+
+.first-skills {
+    margin-bottom: 5%;
+}
+
+.skill {
+    background-color: var(--primary);
+    width: 40%;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.skill i {
+    font-size: 40px;
+    margin-top: 3%;
+}
+
+.skill p {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.technology-section {
+    margin-top: 5%;
+}
+
+.technology-header,
+.technology-icon {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+/* styling for the aboutme page */
+
+.about {
+    font-weight: bolder;
+    margin-top: 7%;
+}
+
+.about-text {
+    font-size: large;
+}
+
+.project-top p {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.project-icon {
+    font-size: xx-large;
 }
 
 
@@ -130,5 +212,22 @@ a {
 
     .btns a {
         margin-bottom: 1rem;
+    }
+
+    .first-skills,
+    .second-skills {
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .react {
+        margin-top: 5%;
+    }
+
+    .css {
+        margin-top: 5%;
     }
 }

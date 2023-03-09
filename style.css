@@ -37,7 +37,12 @@ a {
     background-color: #113F67;
     padding: 15px;
     box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
+}
 
+.launch-btn {
+    background-color: #113F67;
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(17, 63, 103, 0.4);
 }
 
 .contact-btn:hover {
@@ -62,15 +67,17 @@ a {
     margin-top: 7%;
 }
 
-icons a {
+.projects p {
+    margin-bottom: 7%;
+}
+
+.icons a {
     text-decoration: none;
     color: #113F67;
-
+    margin-top: 20%;
 }
 
-.icons a i {
-    color: #113F67;
-}
+
 
 @media(max-width:768px) {
     .row {

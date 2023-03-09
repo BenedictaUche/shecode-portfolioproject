@@ -178,7 +178,25 @@ a {
     font-size: xx-large;
 }
 
+/* styling for contact section */
 
+.contact-top {
+    margin-top: 10%;
+}
+
+.contact-content h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.contact-content h3 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.contact-content a {
+    color: black;
+}
 
 @media(max-width:768px) {
     .row {
